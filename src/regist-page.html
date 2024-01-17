@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body>
+    <div class="px-5 flex flex-col items-center">
+      <div class="flex mb-10 w-full items-center p-2 justify-center">
+        <img src="../img/kemenag.png" class="h-8 mr-3" alt="" />
+        <div class="leading-3 mb-[5px]">
+          <h3 class="font-semibold text-sm">Kantor Kementerian Agama</h3>
+          <h2 class="font-semibold text-md">Kabupaten Lombok Timur</h2>
+        </div>
+      </div>
+      <div class="logo p-3 flex justify-center items-center gap-1">
+        <img src="../img/lotim.png" alt="lotim" class="w-9 mr-[10px]" />
+        <img src="../img/kemenag.png" alt="kemenag" class="w-12" />
+        <img src="../img/lptq.png" alt="lptq" class="w-12" />
+      </div>
+      <h1 class="font-bold text-3xl mb-2">Masuk ke e-MTQ</h1>
+      <p class="text-center text-sm">Masukkan username dan password untuk membuka e-MTQ</p>
+      <div class="form-regist max-w-xl mt-5 py-5">
+        <form action="">
+          <label for="username" class="font-semibold"
+            >Username :
+            <input type="text" name="username" placeholder="Masukkan username" id="username" class="bg-slate-200 w-full font-sans font-semibold text-sm rounded-md p-2 mt-1 mb-4" />
+          </label>
+          <label for="email" class="font-semibold"
+            >Email :
+            <input type="email" name="email" placeholder="Masukkan email" id="email" class="bg-slate-200 w-full font-sans font-semibold text-sm rounded-md p-2 mt-1 mb-4" />
+          </label>
+          <label for="password" class="font-semibold"
+            >Password :
+            <input type="password" name="password" placeholder="Masukkan password" id="password" class="bg-slate-200 w-full font-sans font-semibold text-sm rounded-md p-2 mt-1 mb-2" />
+          </label>
+          <label for="confirmPassword" class="font-semibold"
+            >Konfirmasi Password :
+            <input type="password" name="confirmPassword" placeholder="Masukkan password" id="confirmPassword" class="bg-slate-200 w-full font-sans font-semibold text-sm rounded-md p-2 mt-1 mb-2" />
+          </label>
+        </form>
+        <div class="w-full flex items-center justify-between">
+          <div class="flex items-center justify-center gap-2">
+            <input type="checkbox" id="check" />
+            <label for="check" class="text-sm font-semibold">Remember me</label>
+          </div>
+          <a href="" class="text-sm font-semibold">Forgot Password ?</a>
+        </div>
+        <input type="submit" value="Daftar" class="w-full bg-green-700 p-2 mt-5 rounded-md text-slate-100 font-bold tracking-wider hover:bg-green-800 hover:cursor-pointer" />
+        <a href="login-page.html" class="block mt-5 text-center w-full font-bold text-sky-500 hover:text-sky-600">Masuk Disini</a>
+      </div>
+    </div>
+  </body>
+</html>
